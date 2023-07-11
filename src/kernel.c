@@ -21,7 +21,7 @@ void k_main()
 	k_printf("----------------", 4);
 
 	k_printf("Project EVA V1.1", 6);
-};
+}
 
 void k_clear_screen()
 {
@@ -33,8 +33,8 @@ void k_clear_screen()
 		i++;
 		vidmem[i]=WHITE_TXT;
 		i++;
-	};
-};
+	}
+}
 
 unsigned int k_printf(char *message, unsigned int line)
 {
@@ -49,10 +49,10 @@ unsigned int k_printf(char *message, unsigned int line)
 		{
 			line++;
 			i=(line*80*2);
-			*message++;
+			message++;
 		} else {
 			vidmem[i]=*message;
-			*message++;
+			message++;
 			i++;
 			vidmem[i]=WHITE_TXT;
 			i++;
