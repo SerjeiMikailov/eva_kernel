@@ -2,7 +2,7 @@
 AS = nasm
 CC = clang
 LD = ld.lld
-CFLAGS = -m32 -c -ffreestanding -nostdlib -Wall -Werror -pedantic-errors
+CFLAGS = -m32 -c -ffreestanding -nostdlib -Wall -Wextra -Werror -pedantic-errors
 LDFLAGS = -m elf_i386
 
 
