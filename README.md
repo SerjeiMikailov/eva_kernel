@@ -8,5 +8,5 @@
 
 - 32bits 
 - nasm assembler (obviously)
-- gcc compiler and linker (intending to use clang in future)
+- clang compiler and linker 
 - qemu (to run)
